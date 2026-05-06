@@ -1,0 +1,42 @@
+name: sde
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy=1.26
+  - pandas=2.2
+  - scipy=1.13
+  - sympy=1.13
+  - scikit-learn=1.6
+  - matplotlib=3.9
+  - seaborn=0.13
+  - statsmodels=0.14
+  - graphviz
+  - pip:
+      - anndata==0.10.9
+      - antlr4-python3-runtime==4.9.3
+      - autogluon.common==1.3.1
+      - autogluon.core==1.3.1
+      - autogluon.features==1.3.1
+      - autogluon.tabular==1.3.1
+      - bartpy2==0.0.2
+      - catboost==1.2.8
+      - graphviz==0.21
+      - juliacall==0.9.25
+      - juliapkg==0.1.17
+      - matplotlib==3.9.4
+      - numba==0.60.0
+      - openml==0.15.1
+      - plotly==6.2.0
+      - pyro-api==0.1.2
+      - pyro-ppl==1.9.1
+      - pysr==1.5.8
+      - scanpy==1.10.3
+      - seaborn==0.13.2
+      - statsmodels==0.14.4
+      - sympy==1.13.3
+      - torch==2.7.1
+      - tqdm==4.67.1
+      - xgboost==2.1.4
