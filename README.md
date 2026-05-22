@@ -255,3 +255,17 @@ python -m distid.main --ckpt sweep/runs/yulesimon/winner_model.pkl
         ├── zinb.py               # zero-inflated negative binomial
         └── mixbinom.py           # K-component mixture of binomials
 ```
+## Citation
+
+If you find this repository useful, please cite our paper:
+
+```bibtex
+@misc{liu2026symbolicdensityestimationdiscrete,
+  title={Symbolic Density Estimation for Discrete Distributions}, 
+  author={Ziwen Liu and Meng Li},
+  year={2026},
+  eprint={2605.21813},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2605.21813}
+}
